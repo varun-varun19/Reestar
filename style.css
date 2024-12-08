@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar__menus{
+    display: inline;
+    padding: 2px;
+    color: gray;
+}
+
+.navbar__menus:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.box{
+    border: 3px solid black;
+    display: inline-block;
+    width: 300px;
+}
+
+.box p:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
+
+.recipie{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.order-button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.contact-form{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+table{
+    display: inline-block;
+}
+
+input{
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.Submit__button{
+    background-color: yellow;
+    width: 30%;
+    padding: 5px;
+    font-weight: bolder;
+}
